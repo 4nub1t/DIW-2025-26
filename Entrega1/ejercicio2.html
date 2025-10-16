@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" href="/ejercicio2.css">
+</head>
+<body>
+    <div class="form-container">
+    <h1>Formulario de contacto</h1>
+    <form>
+        <div class="form-field">
+            <label>Nombre <span style="color: red;">*</span></label>
+            <input type="text" name="nombre" placeholder="Escriba su nombre" required>
+        </div>
+        <div class="form-field">
+            <label>Correo electrónico <span style="color: red;">*</span></label>
+            <input type="email" name="email" placeholder="micorreo@gmail.com" required>
+        </div>
+        <div class="form-field">
+            <label>Teléfono</label>
+            <input type="tel" name="telefono" placeholder="123-345-678">
+        </div>
+        <div class="form-field">
+            <label>Mensaje</label>
+            <textarea name="mensaje" placeholder="Ponga información adicional"></textarea>
+        </div>
+        <button type="submit" class="submit-button">Enviar</button>
+    </form>
+    </div>
+</body>
+</html>

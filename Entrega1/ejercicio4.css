@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: auto;
+    background-color: rgb(245, 245, 245);
+    color: black;
+    max-width: 800px;
+}
+
+h1, h2, h3 {
+  margin-top: 40px; 
+  margin-bottom: 10px;
+}
+
+p{
+  margin:30px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.navigation a{
+  padding: 10px 15px;
+  margin-right: 10px;
+  text-decoration: none;
+  display: inline-block;
+  background-color: rgb(99, 200, 255);
+  border-radius: 10px;
+  color: rgb(255, 0, 217);
+}
